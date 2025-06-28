@@ -11,7 +11,27 @@ body {
     color: #333;
     height: 100vh;  
   }
-  
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* le contenu prend l'espace disponible */
+section {
+  flex: 1;
+  padding: 20px;
+}
+
+/* le footer reste en bas */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
   header {
     background-color: rgba(19, 13, 99, 0.9);
     color: white;
