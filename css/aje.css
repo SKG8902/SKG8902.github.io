@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('back.png');
+    background-repeat:no-repeat;
+    background-blend-mode: darken;
+    background-position:left top;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+  }
+  
+  header {
+    background-color: rgba(19, 13, 99, 0.9);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .bloc-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.diaporama {
+  flex: 1;
+  position: relative;
+  max-width: 50%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.contenu {
+  flex: 1;
+  padding: 10px;
+}
+
+  header img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+    section p {color: #ffffff;size: 2.2em; line-height: 1.6; margin: 20px 0;srtong: 1.2em; text-align: justify; font-family: 'Segoe UI', sans-serif;}
+section {
+text-align: left;
+
+    background: url('gorgui.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 40px 20px;
+    background-position: center 6px;
+
+}
+  nav {
+    background-color: rgba(52, 73, 94, 0.9);
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: rgba(44, 62, 80, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .event-item {
+    flex: 1 1 300px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .event-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .event-item h3 {
+    margin: 15px;
+  }
+  section {
+  padding: 20px;
+}
+section figure li
+{
+  color: #000000;
+}
+}
+section ul {
+  list-style: 
+
+}
+mission section {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 500px;
+}
+figure
+section figure {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 500px;
+}
+section figcaption p {
+  font-size: 16px;
+  color: #000000;
+  margin: 10px 0;
+}
+section figcaption {
+  font-size: 14px;
+  color: #f0eeee;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+  .event-item p {
+    margin: 0 15px 15px;
+  }
+  
+  ul {
+    padding-left: 20px;
+    .signature.bottom-right {
+        position: fixed;
+        bottom: 5px;
+        right: 10px;
+        font-size: 11px;
+        color: rgba(0, 3, 12, 0.863);
+        z-index: 1001;
+        pointer-events: none;
+      }
+      
+  }
+  
